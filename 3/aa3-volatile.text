@@ -1,0 +1,46 @@
+2
+squirrel_away
+0
+101169
+1011cd
+addresses
+1011aa squirrel_away_local_30
+101188 squirrel_away_local_20
+101175 squirrel_away_local_30
+1011ad squirrel_away_local_20
+101182 squirrel_away_local_10
+
+locals
+-16 pointer squirrel_away_local_10 8
+-26 scalar squirrel_away_local_1a 1
+-32 scalar squirrel_away_local_20 4
+-48 pointer squirrel_away_local_30 8
+
+namespace
+
+rodent
+0
+1011ce
+101223
+addresses
+1011e3 rodent_local_10
+
+locals
+-16 pointer rodent_local_10 8
+-24 pointer rodent_local_18 8
+
+namespace
+
+.global
+1056772 scalar .global_DAT_00102004 2
+1064888 pointer .global_PTR_00103fb8 8
+1064896 pointer .global_PTR_00103fc0 8
+1064904 pointer .global_PTR___stack_chk_fail_00103fc8 8
+1064912 pointer .global_PTR_printf_00103fd0 8
+1064920 pointer .global_PTR__ITM_deregisterTMCloneTable_00103fd8 8
+1064928 pointer .global_PTR___libc_start_main_00103fe0 8
+1064936 pointer .global_PTR___gmon_start___00103fe8 8
+1064944 pointer .global_PTR__ITM_registerTMCloneTable_00103ff0 8
+1064952 pointer .global_PTR___cxa_finalize_00103ff8 8
+1064968 pointer .global___dso_handle 8
+

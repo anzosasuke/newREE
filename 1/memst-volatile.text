@@ -1,0 +1,51 @@
+2
+f
+0
+101229
+1012c6
+addresses
+101238 f_local_220
+10124f f_local_10
+10123f f_local_228
+
+locals
+-16 pointer f_local_10 8
+-280 scalar f_local_118 1
+-536 scalar f_local_218 1
+-544 pointer f_local_220 8
+-552 pointer f_local_228 8
+
+namespace
+
+main
+0
+1012c7
+101345
+addresses
+1012dd main_local_10
+
+locals
+-16 pointer main_local_10 8
+
+namespace
+
+.global
+1056772 scalar .global_s_enter_your_password:_00102004 22
+1056794 scalar .global_DAT_0010201a 2
+1064840 pointer .global_PTR_00103f88 8
+1064848 pointer .global_PTR_00103f90 8
+1064856 pointer .global_PTR_free_00103f98 8
+1064864 pointer .global_PTR_puts_00103fa0 8
+1064872 pointer .global_PTR_strlen_00103fa8 8
+1064880 pointer .global_PTR___stack_chk_fail_00103fb0 8
+1064888 pointer .global_PTR_printf_00103fb8 8
+1064896 pointer .global_PTR_memset_00103fc0 8
+1064904 pointer .global_PTR_malloc_00103fc8 8
+1064912 pointer .global_PTR___isoc99_scanf_00103fd0 8
+1064920 pointer .global_PTR__ITM_deregisterTMCloneTable_00103fd8 8
+1064928 pointer .global_PTR___libc_start_main_00103fe0 8
+1064936 pointer .global_PTR___gmon_start___00103fe8 8
+1064944 pointer .global_PTR__ITM_registerTMCloneTable_00103ff0 8
+1064952 pointer .global_PTR___cxa_finalize_00103ff8 8
+1064968 pointer .global___dso_handle 8
+
