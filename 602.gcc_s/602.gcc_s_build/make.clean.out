@@ -1,0 +1,5 @@
+rm -rf *.o  200.opts-O3_-finline-limit_50000.s scilab.opts-O3_-finline-limit_50000.s train01.opts-O3_-finline-limit_50000.s
+find . \( -name \*.o -o -name '*.fppized.f*' -o -name '*.i' -o -name '*.mod' \) -print | xargs rm -rf
+rm -rf sgcc
+rm -rf sgcc.exe
+rm -rf core
