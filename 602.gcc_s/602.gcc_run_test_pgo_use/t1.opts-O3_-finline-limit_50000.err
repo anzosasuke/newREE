@@ -1,3 +1,0 @@
-t1.c:2:5: warning: conflicting types for built-in function 'printf'
-t1.c:2:5: warning: conflicting types for built-in function 'printf'
-t1.c:2:5: warning: conflicting types for built-in function 'printf'
