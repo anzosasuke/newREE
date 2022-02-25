@@ -1,0 +1,103 @@
+-E BASH_ENV /usr/share/lmod/lmod/init/bash
+-E BASH_FUNC_ml() '() {  eval $($LMOD_DIR/ml_cmd "$@") }'
+-E BASH_FUNC_module() '() {  eval $($LMOD_CMD bash "$@");  [ $? = 0 ] && eval $(${LMOD_SETTARG_CMD:-:} -s sh) }'
+-E EDITOR vim
+-E HOME /users/wayedt
+-E HOMEBREW_TEMP /var/tmp
+-E INFOPATH /share/info:
+-E LANG en_US.UTF-8
+-E LD_LIBRARY_PATH /volatile/zephyr/wayedt/linuxbrew_updated/opt/gcc@8/lib64/:/volatile/zephyr/wayedt/linuxbrew_updated/opt/gcc@8/lib/:/lib64
+-E LESSOPEN '||/usr/bin/lesspipe.sh %s'
+-E LIBC_FATAL_STDERR_ 1
+-E LMOD_CMD /usr/share/lmod/lmod/libexec/lmod
+-E LMOD_COLORIZE yes
+-E LMOD_DIR /usr/share/lmod/lmod/libexec
+-E LMOD_FULL_SETTARG_SUPPORT no
+-E LMOD_PKG /usr/share/lmod/lmod
+-E LMOD_PREPEND_BLOCK normal
+-E LMOD_SETTARG_CMD :
+-E LMOD_VERSION 6.3.4
+-E LMOD_arch x86_64
+-E LMOD_sys Linux
+-E LOGNAME wayedt
+-E MAIL /var/mail/wayedt
+-E MANPATH /share/man:/usr/share/lmod/lmod/share/man::
+-E MODULEPATH /nfs/apps/7/arch/generic/modules/all
+-E MODULEPATH_ROOT /nfs/apps/7/arch/generic/modules/all
+-E MODULESHOME /usr/share/lmod/lmod
+-E OMP_NUM_THREADS 4
+-E PATH /scratch/wayedt/spec2017_root/bin:/users/wayedt/.cargo/bin:/nfs/users/wayedt/.linuxbrew/bin:/users/wayedt/perl5/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin
+-E PERL5LIB /users/wayedt/perl5/lib/perl5
+-E PERL_LOCAL_LIB_ROOT /users/wayedt/perl5
+-E PERL_MB_OPT '--install_base "/users/wayedt/perl5"'
+-E PERL_MM_OPT 'INSTALL_BASE=/users/wayedt/perl5'
+-E PKG_CONFIG_PATH /lib/pkgconfig:
+-E QTDIR /usr/lib64/qt-3.3
+-E QTINC /usr/lib64/qt-3.3/include
+-E QTLIB /usr/lib64/qt-3.3/lib
+-E QT_GRAPHICSSYSTEM_CHECKED 1
+-E SELINUX_LEVEL_REQUESTED ''
+-E SELINUX_ROLE_REQUESTED ''
+-E SELINUX_USE_CURRENT_RANGE ''
+-E SHELL /bin/bash
+-E SLURMD_NODENAME n235
+-E SLURM_CLUSTER_NAME slurm
+-E SLURM_CPUS_ON_NODE 16
+-E SLURM_GTIDS 0
+-E SLURM_JOBID 434742
+-E SLURM_JOB_ACCOUNT ittc
+-E SLURM_JOB_CPUS_PER_NODE 16
+-E SLURM_JOB_GID 100358403
+-E SLURM_JOB_ID 434742
+-E SLURM_JOB_NAME zsh
+-E SLURM_JOB_NODELIST n235
+-E SLURM_JOB_NUM_NODES 1
+-E SLURM_JOB_PARTITION intel
+-E SLURM_JOB_QOS normal
+-E SLURM_JOB_UID 100358403
+-E SLURM_JOB_USER wayedt
+-E SLURM_LAUNCH_NODE_IPADDR 10.123.128.11
+-E SLURM_LOCALID 0
+-E SLURM_NNODES 1
+-E SLURM_NODEID 0
+-E SLURM_NODELIST n235
+-E SLURM_NPROCS 1
+-E SLURM_NTASKS 1
+-E SLURM_PRIO_PROCESS 0
+-E SLURM_PROCID 0
+-E SLURM_PTY_PORT 44035
+-E SLURM_PTY_WIN_COL 120
+-E SLURM_PTY_WIN_ROW 49
+-E SLURM_SRUN_COMM_HOST 10.123.128.11
+-E SLURM_SRUN_COMM_PORT 34013
+-E SLURM_STEPID 0
+-E SLURM_STEP_ID 0
+-E SLURM_STEP_LAUNCHER_PORT 34013
+-E SLURM_STEP_NODELIST n235
+-E SLURM_STEP_NUM_NODES 1
+-E SLURM_STEP_NUM_TASKS 1
+-E SLURM_STEP_TASKS_PER_NODE 1
+-E SLURM_SUBMIT_DIR /nfs/users/wayedt
+-E SLURM_SUBMIT_HOST login1.ittc.ku.edu
+-E SLURM_TASKS_PER_NODE 1
+-E SLURM_TASK_PID 48768
+-E SLURM_TOPOLOGY_ADDR n235
+-E SLURM_TOPOLOGY_ADDR_PATTERN node
+-E SLURM_UMASK 0022
+-E SLURM_WORKING_CLUSTER slurm:10.123.128.4:6817:8704:101
+-E SPEC /scratch/wayedt/spec2017_root
+-E SPECDB_PWD /scratch/wayedt/spec2017_root
+-E SRUN_DEBUG 3
+-E SSH_ASKPASS /usr/libexec/openssh/lxqt-openssh-askpass
+-E SSH_CLIENT '129.237.125.104 44136 22'
+-E SSH_CONNECTION '129.237.125.104 44136 129.237.125.121 22'
+-E SSH_TTY /dev/pts/7
+-E TERM screen-256color
+-E TMPDIR /tmp
+-E USER wayedt
+-E XDG_RUNTIME_DIR /run/user/100358403
+-E XDG_SESSION_ID 12201
+-r
+-N C
+-C /scratch/wayedt/spec2017_root/benchspec/CPU/623.xalancbmk_s/run/run_peak_refspeed_collect-build-flags-m64.0000
+-o ref-t5.out -e ref-t5.err ../run_peak_refspeed_collect-build-flags-m64.0000/xalancbmk_s_peak.collect-build-flags-m64 -v t5.xml xalanc.xsl > ref-t5.out 2>> ref-t5.err

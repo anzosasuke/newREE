@@ -1,0 +1,3 @@
+build_base_mytest-m64.0000 dir=/scratch/wayedt/spec2017_root/benchspec/CPU/623.xalancbmk_s/build/build_base_mytest-m64.0000 label=mytest-m64 lock=0 tune=base type=build username=s181p983
+build_peak_collect-build-flags-m64.0000 dir=/scratch/wayedt/spec2017_root/benchspec/CPU/623.xalancbmk_s/build/build_peak_collect-build-flags-m64.0000 label=collect-build-flags-m64 lock=0 tune=peak type=build username=wayedt
+__END__
