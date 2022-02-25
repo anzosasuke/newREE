@@ -1,0 +1,7 @@
+organization=anzosasuke
+projectKey=anzosasuke_REEE
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.27074
+dashboardUrl=https://sonarcloud.io/dashboard?id=anzosasuke_REEE
+ceTaskId=AX8vMly49r2-zJc90hq4
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AX8vMly49r2-zJc90hq4
