@@ -1,6 +1,0 @@
-/usr/bin/gcc     -std=c99   -m64 -DSPEC -DNDEBUG -I. -I./include -I./spec_qsort -DSPEC_602 -DIN_GCC -DHAVE_CONFIG_H  -g           -fopenmp -DSPEC_OPENMP -fno-strict-aliasing -fgnu89-inline   -DSPEC_LP64  -v >>compiler-version.tmpout 2>&1
-cat "compiler-version.tmpout"
-
- CC_VERSION_OPTION:
-
-rm -rf compiler-version.tmpout

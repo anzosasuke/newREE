@@ -1,0 +1,5 @@
+rm -rf *.o  train.out
+find . \( -name \*.o -o -name '*.fppized.f*' -o -name '*.i' -o -name '*.mod' \) -print | xargs rm -rf
+rm -rf leela_s
+rm -rf leela_s.exe
+rm -rf core
